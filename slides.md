@@ -17,14 +17,13 @@ background: https://images.unsplash.com/photo-1588153191435-c890d9adbb99?crop=en
 
 <br/>
 
-# Build Systems, Package Managers, `pyproject.toml`
-# and you - how to work with Python in 2023
+## Build Systems, Package Managers, `pyproject.toml`
+## and you - how to work with Python in 2023
 
 <br/>
 
 PyCon Israel 2023, Jonathan Daniel
 
-<br/>
 
 <div class="toml-block" style>
 
@@ -57,13 +56,13 @@ requires = ["slidev"]
 </div>
 
 <style>
-. {
-  line-height: 1.5;
-}
 .toml-block {
   text-align: left;
   width: 50%;
   margin: auto;
+}
+code {
+  background-color: rgba(0, 0, 0, 0);
 }
 </style>
 
