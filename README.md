@@ -9,7 +9,7 @@ My talk and materials for PyCon IL 2023:
 
 ## Presentation
 
-The presenstation is build with [Slidev](https://github.com/slidevjs/slidev).  
+The presenstation is built with [Slidev](https://github.com/slidevjs/slidev).  
 Node.js and npm are required to run it locally.
 
 To start the slide show:
