@@ -13,11 +13,23 @@ drawings:
   persist: false
 transition: slide-left
 title: Welcome to Slidev
+layout: default
 ---
 
-# Welcome to Slidev
 
-Presentation slides for developers
+<!-- # Welcome to Slidev -->
+
+<!-- Presentation slides for developers -->
+
+```toml
+# talk.toml
+
+[talk]
+title = "Build Systems, Package Managers, pyproject.toml and you - how to work with Python in 2023"
+
+speaker = "Jonathan Daniel"
+
+```
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -34,6 +46,12 @@ Presentation slides for developers
     <carbon-logo-github />
   </a>
 </div>
+
+<style>
+* {
+  text-align: left;
+}
+</style>
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
