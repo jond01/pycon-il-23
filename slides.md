@@ -16,20 +16,30 @@ title: PyCon IL 23 - Jonathan Daniel
 layout: default
 ---
 
+<br/>
 
-<!-- # Welcome to Slidev -->
+# Build Systems, Package Managers, `pyproject.toml`
+# and you - how to work with Python in 2023
 
-<!-- Presentation slides for developers -->
+<br/>
+
+PyCon Israel 2023, Jonathan Daniel
+
+<br/>
+
+<div class="toml-block" style>
 
 ```toml
 # talk.toml
-
 [talk]
-title = "Build Systems, Package Managers, pyproject.toml and you - how to work with Python in 2023"
+title = "My talk"
+speaker = "Jonathan"
 
-speaker = "Jonathan Daniel"
-
+[build-system]
+requires = ["slidev"]
 ```
+
+</div>
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -48,8 +58,13 @@ speaker = "Jonathan Daniel"
 </div>
 
 <style>
-* {
+. {
+  line-height: 1.5;
+}
+.toml-block {
   text-align: left;
+  width: 50%;
+  margin: auto;
 }
 </style>
 
