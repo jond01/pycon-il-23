@@ -1,7 +1,16 @@
-# pycon-il-23
-My talk and materials for PyCon IL 2023
+# PyCon IL 2023 - Jonathan Daniel
 
-## Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+My talk and materials for PyCon IL 2023:
+> *Build Systems, Package Managers, pyproject.toml and you - how to work with Python in 2023*
+
+* Talk: https://cfp.pycon.org.il/conference2023/talk/DEZUBS/
+* Event: https://2023.pycon.org.il/
+
+
+## Presentation
+
+The presenstation is build with [Slidev](https://github.com/slidevjs/slidev).  
+Node.js and npm are required to run it locally.
 
 To start the slide show:
 
@@ -10,5 +19,3 @@ To start the slide show:
 - visit http://localhost:3030
 
 Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev on [documentations](https://sli.dev/).
