@@ -367,3 +367,32 @@ class: text-center
 # Learn More
 
 [Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+
+
+---
+
+# Is Poetry the Perfect Solution?
+
+Some drawbacks of Poetry:
+
+- Not
+  [PEP-621](https://packaging.python.org/en/latest/specifications/declaring-project-metadata/)
+  compliant - registers its metadata under `[tool.poetry]` instead of `[project]`
+  in `pyproject.toml`
+- Missing dynamic version - need to declare the version both in the code:
+  ```py
+  # __init__.py
+  __version__ = "..."
+  ```
+  and the manifest:
+  ```toml
+  # pyproject.toml
+  [tool.poetry]
+  version = "..."
+  ```
+  (although some 
+  [plugins](https://github.com/mtkennerly/poetry-dynamic-versioning) 
+  are available)
+- The default dependency specification is nonconventional - 
+  [caret (`^`) specification](https://python-poetry.org/docs/dependency-specification/#caret-requirements)
+
