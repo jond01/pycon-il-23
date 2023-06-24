@@ -314,6 +314,15 @@ const final = {
 
 </div>
 
+
+---
+
+# List of Tools
+
+* Hatch & Hatchling
+* Poetry & Poetry-core
+* PDM & PDM-Backend
+
 ---
 
 # <mdi-cog /> Configure Your Tools in `pyproject.toml`
