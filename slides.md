@@ -350,6 +350,16 @@ hide: false
 ---
 
 ---
+
+# On par with Other Langauges
+
+|                  | Language  | Tools              | Manifest file    |
+|------------------|-----------|--------------------|------------------|
+| <logos-python /> | Python    | hatch, pdm, poetry | `pyproject.toml` |
+| <logos-nodejs /> | Node.js * | npm, yarn, pnpm    | `package.json`   |
+| <logos-rust />   | Rust      | cargo              | `Cargo.toml`     |
+
+---
 layout: center
 class: text-center
 ---
