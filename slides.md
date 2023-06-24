@@ -314,6 +314,12 @@ const final = {
 
 </div>
 
+---
+
+# <fxemoji-lock /> Locking Dependencies
+
+- <octicon-cache-16 class="text-3x1" /> - caching environments
+- <jam-shield-half class="text-4x2" /> - improving supply chain security
 
 ---
 
