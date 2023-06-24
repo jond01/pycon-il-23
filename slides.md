@@ -361,6 +361,8 @@ hide: false
 
 
 <!--
+* Node.js is a runtime for the JavaScript language.
+
 Lock files:
 - Python:
   - The rejected [PEP 665](https://peps.python.org/pep-0665/)
