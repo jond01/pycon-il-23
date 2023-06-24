@@ -370,13 +370,15 @@ class: text-center
 
 
 ---
+hideInToc: true
+---
 
 # Is Poetry the Perfect Solution?
 
-Some drawbacks of Poetry:
+Not yet. Some drawbacks of Poetry:
 
 - Not
-  [PEP-621](https://packaging.python.org/en/latest/specifications/declaring-project-metadata/)
+  [PEP 621](https://packaging.python.org/en/latest/specifications/declaring-project-metadata/)
   compliant - registers its metadata under `[tool.poetry]` instead of `[project]`
   in `pyproject.toml`
 - Missing dynamic version - need to declare the version both in the code:
@@ -396,3 +398,8 @@ Some drawbacks of Poetry:
 - The default dependency specification is nonconventional - 
   [caret (`^`) specification](https://python-poetry.org/docs/dependency-specification/#caret-requirements)
 
+<!--
+Some more criticism of Poetry is available here, by [Henry Schreiner](https://iscinumpy.dev/):
+- https://iscinumpy.dev/post/bound-version-constraints/
+- https://iscinumpy.dev/post/poetry-versions/
+-->
