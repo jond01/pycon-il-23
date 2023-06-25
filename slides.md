@@ -383,12 +383,16 @@ Lock files:
 
 ---
 layout: center
-class: text-center
 ---
 
-# Learn More
+# Thank You
 
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+The slides:<br/>
+[`jond01.github.io/blog/pycon-il-23`](https://jond01.github.io/blog/pycon-il-23/)
+
+
+<carbon-logo-github /> [`jond01`](https://github.com/jond01)<br/>
+<carbon-logo-linkedin /> [`jonathan--daniel`](https://www.linkedin.com/in/jonathan--daniel/)
 
 
 ---
