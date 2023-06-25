@@ -242,6 +242,8 @@ check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
 
 # Build Backend
 
+<SlideCurrentNo />
+
 ---
 
 # <fxemoji-lock /> Locking Dependencies
@@ -360,15 +362,21 @@ Some more criticism of Poetry is available here, by [Henry Schreiner](https://is
 
 ---
 hideInToc: true
-layout: two-cols
 ---
 
 # Why Bother About One Config File?
 
-Avoid a clutter of tens of files for each tool, and configure them all in `pyproject.toml`.
+<div grid="~ cols-2 gap-2" m="-t-2">
+
+<div>
+Avoid a clutter of tens of files for each tool, and configure them all in
+<code>pyproject.toml</code>.
 
 See the situation for TypeScript projects:
+</div>
 
-::right::
+<div>
+<Tweet id="1672839156647575552" scale=0.65 />
+</div>
 
-<Tweet id="1672839156647575552" scale=0.7 />
+</div>
