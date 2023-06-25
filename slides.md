@@ -425,3 +425,18 @@ Some more criticism of Poetry is available here, by [Henry Schreiner](https://is
 - https://iscinumpy.dev/post/bound-version-constraints/
 - https://iscinumpy.dev/post/poetry-versions/
 -->
+
+---
+hideInToc: true
+layout: two-cols
+---
+
+# Why Bother About One Config File?
+
+Avoid a clutter of tens of files for each tool, and configure them all in `pyproject.toml`.
+
+See the situation for TypeScript projects:
+
+::right::
+
+<Tweet id="1672839156647575552" scale=0.7 />
