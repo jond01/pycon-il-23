@@ -246,7 +246,7 @@ With all the configurations and the dependencies in `pyproject.toml`:
     └── <py files>
 ```
 
-Much more tidy.
+Neat and tidy.
 
 </div>
 
