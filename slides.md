@@ -241,9 +241,9 @@ With all the configurations and the dependencies in `pyproject.toml`:
 .
 ├── README.md
 ├── pyproject.toml
-└── /
+└── <package>/
     ├── __init__.py
-    └── 
+    └── <py files>
 ```
 
 Much more tidy.
