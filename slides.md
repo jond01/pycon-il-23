@@ -211,32 +211,55 @@ Also, HTML elements are valid:
 class: px-20
 ---
 
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
+# Python Project
 
 <div grid="~ cols-2 gap-2" m="-t-2">
 
-```yaml
----
-theme: default
----
+```
+.
+├── .coveragerc
+├── .isort.cfg
+├── .mypy.ini
+├── .pylintrc
+├── .pytest.ini
+├── tox.ini
+├── requirements.txt
+├── dev-requirements.txt
+├── MANIFEST.in
+├── README.md
+├── setup.py
+└── <package>/
+    ├── __init__.py
+    └── <py files>
 ```
 
-```yaml
----
-theme: seriph
----
+<div v-click class="text-xl p-2">
+
+With all the configurations and the dependencies in `pyproject.toml`:
+
+```
+.
+├── README.md
+├── pyproject.toml
+└── /
+    ├── __init__.py
+    └── 
 ```
 
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true">
+Much more tidy.
 
 </div>
 
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
+</div>
+
+<!--
+
+The file tree:
+https://tree.nathanfriend.io/?s=(%27options!(%27fancy2~fullPath!false~trail7gSlash2~rootDot2)~6(%276%27.coveragerc*.isort.cfg*.mypy34l7trc*4test3tox30dev-0MANIFEST.7*README.md*setup4*%3Cpackage%3E5__7it__45%3Cpy%20files%3E%27)~version!%271%27)*%5Cn0requirements.txt*2!true3.7i*4.py5*%20%206source!7in%017654320*
+
+If the package is typed, expect a single empty `py.typed` file next to the top-level
+`__init__.py` file. See PEP 561: https://peps.python.org/pep-0561/
+-->
 
 ---
 
