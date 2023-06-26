@@ -60,27 +60,14 @@ Talk a bit about:
 transition: fade-out
 ---
 
-# What is Slidev?
+# What is the Talk About?
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+The latest standards and tools for managing Python projects. <logos-python />
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
+- **Build systems** - transform the source package into a distributable wheel file
+- **Package managers** - manage the project dependencies and virtual environments
+- **`pyproject.toml`** - project configuration, including the build system and the dependencies
 
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
 
 <style>
 h1 {
@@ -93,10 +80,6 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 </style>
-
-<!--
-Here is another comment.
--->
 
 ---
 layout: default
