@@ -189,12 +189,31 @@ Adding a dependency follows an idiomatic form:
 $ poetry add torch
 ```
 
+<v-click>
+
+Bonus:
+
+If you use PDM or Poetry - you get a lock file:
+
+- `pdm.lock`
+- `poetry.lock`
+
+</v-click>
+
 ---
 
 # <fxemoji-lock /> Locking Dependencies
 
+Why do you need a `.lock` file?
+
+Reliable and reproducible venvs for applications.
+
 - <octicon-cache-16 class="text-3x1" /> - caching environments
 - <jam-shield-half class="text-4x2" /> - improving supply chain security
+
+<!--
+Mention the changing world: software, PyPI.
+-->
 
 ---
 
