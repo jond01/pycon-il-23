@@ -213,6 +213,7 @@ Reliable and reproducible venvs for applications.
 
 <!--
 Mention the changing world: software, PyPI.
+Renovate by Mend, Dependabot by GitHub, Snyk.
 -->
 
 ---
