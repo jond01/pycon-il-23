@@ -290,8 +290,6 @@ $ poetry build
 As Poetry frontend builds only `poetry-core` projects.
 
 ---
-transition: fade
----
 
 # Build Frontends and Backends
 
