@@ -367,11 +367,6 @@ mindmap
 </div>
 
 ---
-src: ./pages/multiple-entries.md
-hide: false
----
-
----
 
 # On par with Other Langauges
 
