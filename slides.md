@@ -127,7 +127,8 @@ Rust Developer complains about the Python packaging system:
 <Youtube id="9g8mp8TqAQ0" />
 </Transform>
 
-
+---
+transition: slide-up
 ---
 
 # `pip` + `requirements.txt`
@@ -171,6 +172,22 @@ This tandem is high maintenance and error prone, not to mention multiple files.
 
 Is it in the venv?
 </v-click>
+
+---
+transition: slide-up
+---
+
+# Adding a Dependency with a Single Command
+
+Instead of maintaining multiple files and configs, adopt a modern package manager.
+
+Some examples are: `poetry`, `hatch`, `pdm`, all are CLI tools.
+
+Adding a dependency follows an idiomatic form:
+
+```sh
+$ poetry add torch
+```
 
 ---
 
