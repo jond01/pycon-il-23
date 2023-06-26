@@ -231,10 +231,57 @@ If the package is typed, expect a single empty `py.typed` file next to the top-l
 -->
 
 ---
+transition: fade
+---
 
-# Build Backend
+# Build System and Backend
 
-<SlideCurrentNo />
+For example:
+
+```toml
+# pyproject.toml
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+```
+
+`requires` is a list of Python packages used to build the project.
+Hatchling is a *build backend*.
+
+The following command can build the project:
+
+```sh
+$ hatch build
+```
+
+Hatch is a *build frontend*.
+
+---
+transition: slide-up
+---
+
+# Build System and Backend
+
+The project can also be built by `pip` *frontend*:
+
+```sh
+$ pip wheel .
+```
+
+But NOT:
+
+```sh
+$ poetry build
+```
+
+As Poetry frontend builds `poetry-core` projects.
+
+---
+
+# Build Frontends and Backends
+
+
 
 ---
 
