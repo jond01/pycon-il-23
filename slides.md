@@ -413,6 +413,25 @@ mindmap
 
 ---
 
+# Why Bother About One Config File?
+
+<div grid="~ cols-2 gap-2" m="-t-2">
+
+<div>
+Avoid a clutter of tens of files for each tool, and configure them all in
+<code>pyproject.toml</code>.
+
+See the situation for TypeScript projects:
+</div>
+
+<div>
+<Tweet id="1672839156647575552" scale=0.65 />
+</div>
+
+</div>
+
+---
+
 # Rye - the Newest Tool in Town
 
 (Roughly) Rye = Pyenv + PDM/Poetry.
@@ -477,24 +496,3 @@ Some more criticism of Poetry is available here, by [Henry Schreiner](https://is
 - https://iscinumpy.dev/post/bound-version-constraints/
 - https://iscinumpy.dev/post/poetry-versions/
 -->
-
----
-hideInToc: true
----
-
-# Why Bother About One Config File?
-
-<div grid="~ cols-2 gap-2" m="-t-2">
-
-<div>
-Avoid a clutter of tens of files for each tool, and configure them all in
-<code>pyproject.toml</code>.
-
-See the situation for TypeScript projects:
-</div>
-
-<div>
-<Tweet id="1672839156647575552" scale=0.65 />
-</div>
-
-</div>
