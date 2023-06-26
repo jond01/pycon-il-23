@@ -216,58 +216,6 @@ Lock files:
 -->
 
 ---
-
-# Python Project
-
-<div grid="~ cols-2 gap-2" m="-t-2">
-
-```
-.
-├── .coveragerc
-├── .isort.cfg
-├── .mypy.ini
-├── .pylintrc
-├── .pytest.ini
-├── tox.ini
-├── requirements.txt
-├── dev-requirements.txt
-├── MANIFEST.in
-├── README.md
-├── setup.py
-└── <package>/
-    ├── __init__.py
-    └── <py files>
-```
-
-<div v-click class="text-xl p-2">
-
-With all the configurations and the dependencies in `pyproject.toml`:
-
-```
-.
-├── README.md
-├── pyproject.toml
-└── <package>/
-    ├── __init__.py
-    └── <py files>
-```
-
-Neat and tidy.
-
-</div>
-
-</div>
-
-<!--
-
-The file tree:
-https://tree.nathanfriend.io/?s=(%27options!(%27fancy2~fullPath!false~trail7gSlash2~rootDot2)~6(%276%27.coveragerc*.isort.cfg*.mypy34l7trc*4test3tox30dev-0MANIFEST.7*README.md*setup4*%3Cpackage%3E5__7it__45%3Cpy%20files%3E%27)~version!%271%27)*%5Cn0requirements.txt*2!true3.7i*4.py5*%20%206source!7in%017654320*
-
-If the package is typed, expect a single empty `py.typed` file next to the top-level
-`__init__.py` file. See PEP 561: https://peps.python.org/pep-0561/
--->
-
----
 transition: fade
 ---
 
@@ -370,6 +318,58 @@ One should not mix between Poetry and the rest.
 
 - <octicon-cache-16 class="text-3x1" /> - caching environments
 - <jam-shield-half class="text-4x2" /> - improving supply chain security
+
+---
+
+# Python Project
+
+<div grid="~ cols-2 gap-2" m="-t-2">
+
+```
+.
+├── .coveragerc
+├── .isort.cfg
+├── .mypy.ini
+├── .pylintrc
+├── .pytest.ini
+├── tox.ini
+├── requirements.txt
+├── dev-requirements.txt
+├── MANIFEST.in
+├── README.md
+├── setup.py
+└── <package>/
+    ├── __init__.py
+    └── <py files>
+```
+
+<div v-click class="text-xl p-2">
+
+With all the configurations and the dependencies in `pyproject.toml`:
+
+```
+.
+├── README.md
+├── pyproject.toml
+└── <package>/
+    ├── __init__.py
+    └── <py files>
+```
+
+Neat and tidy.
+
+</div>
+
+</div>
+
+<!--
+
+The file tree:
+https://tree.nathanfriend.io/?s=(%27options!(%27fancy2~fullPath!false~trail7gSlash2~rootDot2)~6(%276%27.coveragerc*.isort.cfg*.mypy34l7trc*4test3tox30dev-0MANIFEST.7*README.md*setup4*%3Cpackage%3E5__7it__45%3Cpy%20files%3E%27)~version!%271%27)*%5Cn0requirements.txt*2!true3.7i*4.py5*%20%206source!7in%017654320*
+
+If the package is typed, expect a single empty `py.typed` file next to the top-level
+`__init__.py` file. See PEP 561: https://peps.python.org/pep-0561/
+-->
 
 ---
 
