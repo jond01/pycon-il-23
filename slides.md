@@ -437,40 +437,6 @@ See the situation for TypeScript projects:
 
 ---
 
-# Rye - the Newest Tool in Town
-
-(Roughly) Rye = Pyenv + PDM/Poetry.
-
-<p align="center">
-  <a href="https://rye-up.com/">
-  <img src="https://raw.githubusercontent.com/mitsuhiko/rye/main/docs/static/favicon.svg"
-  alt="Rye logo" style="width: 10%;" />
-  </a>
-</p>
-
-- Rye manages also the Python installation, as Pyenv does,  
-  in addition to package and dependency management.
-- Its development has begun this year by [Flask's author](https://lucumr.pocoo.org/).
-- Cross platform, built in Rust (<logos-rust /> for <logos-python />).
-
----
-layout: center
----
-
-# Thank You
-
-The slides:<br/>
-[`jond01.github.io/blog/pycon-il-23`](https://jond01.github.io/blog/pycon-il-23/)
-
-
-<carbon-logo-github /> [`jond01`](https://github.com/jond01)<br/>
-<carbon-logo-linkedin /> [`jonathan--daniel`](https://www.linkedin.com/in/jonathan--daniel/)
-
-
----
-hideInToc: true
----
-
 # Is Poetry the Perfect Solution?
 
 Not yet. Some drawbacks of Poetry:
@@ -501,3 +467,34 @@ Some more criticism of Poetry is available here, by [Henry Schreiner](https://is
 - https://iscinumpy.dev/post/bound-version-constraints/
 - https://iscinumpy.dev/post/poetry-versions/
 -->
+
+---
+
+# Rye - the Newest Tool in Town
+
+(Roughly) Rye = Pyenv + PDM/Poetry.
+
+<p align="center">
+  <a href="https://rye-up.com/">
+  <img src="https://raw.githubusercontent.com/mitsuhiko/rye/main/docs/static/favicon.svg"
+  alt="Rye logo" style="width: 10%;" />
+  </a>
+</p>
+
+- Rye manages also the Python installation, as Pyenv does,  
+  in addition to package and dependency management.
+- Its development has begun this year by [Flask's author](https://lucumr.pocoo.org/).
+- Cross platform, built in Rust (<logos-rust /> for <logos-python />).
+
+---
+layout: center
+---
+
+# Thank You
+
+The slides:<br/>
+[`jond01.github.io/blog/pycon-il-23`](https://jond01.github.io/blog/pycon-il-23/)
+
+
+<carbon-logo-github /> [`jond01`](https://github.com/jond01)<br/>
+<carbon-logo-linkedin /> [`jonathan--daniel`](https://www.linkedin.com/in/jonathan--daniel/)
