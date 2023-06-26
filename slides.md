@@ -416,6 +416,11 @@ mindmap
 
 </div>
 
+<!--
+If you build a new tool - support configuring it from `pyproject.toml`.
+In Python 3.11+ - use the builtin `tomllib` for reading it.
+-->
+
 ---
 
 # Why Bother About One Config File?
@@ -485,6 +490,15 @@ Some more criticism of Poetry is available here, by [Henry Schreiner](https://is
   in addition to package and dependency management.
 - Its development has begun this year by [Flask's author](https://lucumr.pocoo.org/).
 - Cross platform, built in Rust (<logos-rust /> for <logos-python />).
+
+
+---
+
+# Take Aways from the Talk
+
+- `pyproject.toml` is here to stay
+- The modern build frontends provide much more than a package -> `.whl` solution - they let you also manage dependencies
+- Best to choose the proper tool for you and stick with it
 
 ---
 layout: center
