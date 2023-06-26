@@ -339,6 +339,8 @@ One should not mix between Poetry and the rest.
 -->
 
 ---
+transition: slide-up
+---
 
 # Python Project
 
@@ -390,6 +392,8 @@ If the package is typed, expect a single empty `py.typed` file next to the top-l
 `__init__.py` file. See PEP 561: https://peps.python.org/pep-0561/
 -->
 
+---
+transition: slide-up
 ---
 
 # <mdi-cog /> Configure Your Tools in `pyproject.toml`
