@@ -191,6 +191,32 @@ $ poetry add torch
 
 ---
 
+# On par with Other Langauges
+
+|                  | Language  | Tools              | Manifest file    |
+|------------------|-----------|--------------------|------------------|
+| <logos-python /> | Python    | hatch, pdm, poetry | `pyproject.toml` |
+| <logos-nodejs /> | Node.js * | npm, yarn, pnpm    | `package.json`   |
+| <logos-rust />   | Rust      | cargo              | `Cargo.toml`     |
+
+
+<!--
+* Node.js is a runtime for the JavaScript language.
+
+Lock files:
+- Python:
+  - The rejected [PEP 665](https://peps.python.org/pep-0665/)
+  - Poetry (`poetry.lock`): https://python-poetry.org/docs/libraries#lock-file
+  - PDM (`pdm.lock`): https://pdm.fming.dev/latest/usage/dependency/#install-the-packages-pinned-in-lock-file
+- Node.js (see https://pnpm.io/feature-comparison):
+  - npm (`package-lock.json`): https://docs.npmjs.com/cli/v9/configuring-npm/package-lock-json
+  - yarn (`yarn.lock`): https://yarnpkg.com/getting-started/qa#should-lockfiles-be-committed-to-the-repository
+  - pnpm (`pnpm-lock.yaml`): https://pnpm.io/git#lockfiles
+- Rust (`Cargo.lock`): https://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock.html
+-->
+
+---
+
 # Python Project
 
 <div grid="~ cols-2 gap-2" m="-t-2">
@@ -365,32 +391,6 @@ mindmap
 ```
 
 </div>
-
----
-
-# On par with Other Langauges
-
-|                  | Language  | Tools              | Manifest file    |
-|------------------|-----------|--------------------|------------------|
-| <logos-python /> | Python    | hatch, pdm, poetry | `pyproject.toml` |
-| <logos-nodejs /> | Node.js * | npm, yarn, pnpm    | `package.json`   |
-| <logos-rust />   | Rust      | cargo              | `Cargo.toml`     |
-
-
-<!--
-* Node.js is a runtime for the JavaScript language.
-
-Lock files:
-- Python:
-  - The rejected [PEP 665](https://peps.python.org/pep-0665/)
-  - Poetry (`poetry.lock`): https://python-poetry.org/docs/libraries#lock-file
-  - PDM (`pdm.lock`): https://pdm.fming.dev/latest/usage/dependency/#install-the-packages-pinned-in-lock-file
-- Node.js (see https://pnpm.io/feature-comparison):
-  - npm (`package-lock.json`): https://docs.npmjs.com/cli/v9/configuring-npm/package-lock-json
-  - yarn (`yarn.lock`): https://yarnpkg.com/getting-started/qa#should-lockfiles-be-committed-to-the-repository
-  - pnpm (`pnpm-lock.yaml`): https://pnpm.io/git#lockfiles
-- Rust (`Cargo.lock`): https://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock.html
--->
 
 ---
 layout: center
