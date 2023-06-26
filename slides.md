@@ -412,6 +412,24 @@ mindmap
 </div>
 
 ---
+
+# Rye - the Newest Tool in Town
+
+(Roughly) Rye = Pyenv + PDM/Poetry.
+
+<p align="center">
+  <a href="https://rye-up.com/">
+  <img src="https://raw.githubusercontent.com/mitsuhiko/rye/main/docs/static/favicon.svg"
+  alt="Rye logo" style="width: 10%;" />
+  </a>
+</p>
+
+- Rye manages also the Python installation, as Pyenv does,  
+  in addition to package and dependency management.
+- Its development has begun this year by [Flask's author](https://lucumr.pocoo.org/).
+- Cross platform, built in Rust (<logos-rust /> for <logos-python />).
+
+---
 layout: center
 ---
 
@@ -480,23 +498,3 @@ See the situation for TypeScript projects:
 </div>
 
 </div>
-
----
-hideInToc: true
----
-
-# Rye - the Newest Tool in Town
-
-(Roughly) Rye = Pyenv + PDM/Poetry.
-
-<p align="center">
-  <a href="https://rye-up.com/">
-  <img src="https://raw.githubusercontent.com/mitsuhiko/rye/main/docs/static/favicon.svg"
-  alt="Rye logo" style="width: 10%;" />
-  </a>
-</p>
-
-- Rye manages also the Python installation, as Pyenv does,  
-  in addition to package and dependency management.
-- Its development has begun this year by [Flask's author](https://lucumr.pocoo.org/).
-- Cross platform, built in Rust (<logos-rust /> for <logos-python />).
