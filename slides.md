@@ -127,6 +127,51 @@ Rust Developer complains about the Python packaging system:
 <Youtube id="9g8mp8TqAQ0" />
 </Transform>
 
+
+---
+
+# `pip` + `requirements.txt`
+
+Are they good enough?
+
+<div grid="~ cols-2 gap-2" m="-t-2">
+
+<div>
+
+```sh
+$ pip install torch
+```
+
+<v-click>
+
+```sh
+$ pip install numpy
+$ pip install pandas
+```
+
+</v-click>
+
+</div>
+
+<div>
+
+```
+# requirements.txt
+
+torch >= 1.11.0
+```
+
+</div>
+
+</div>
+
+<v-click>
+
+This tandem is high maintenance and error prone, not to mention multiple files.
+
+Is it in the venv?
+</v-click>
+
 ---
 
 # Python Project
