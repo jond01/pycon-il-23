@@ -102,7 +102,7 @@ transition: slide-up
 Specifically, in Python, we encounter these tasks regularly:
 
 1. Open a *virtual environment* (venv), add dependencies, write Python code.
-2. Change dependencies, run tests on another system.
+2. Change dependencies, run tests, checks and linters on another system.
 3. Publish a package to PyPI/internally, or change a Docker image.
 
 <v-click>
