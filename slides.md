@@ -275,13 +275,57 @@ But NOT:
 $ poetry build
 ```
 
-As Poetry frontend builds `poetry-core` projects.
+As Poetry frontend builds only `poetry-core` projects.
 
+---
+transition: fade
 ---
 
 # Build Frontends and Backends
 
+Build frontend = the CLI, build backend = the Python package that builds the project.
 
+<div grid="~ cols-2 gap-2" m="-t-2">
+
+<div>
+
+- Pip & setuptools
+- Flit & flit_core
+- PDM & PDM-Backend
+- Hatch & Hatchling
+
+E.g.:
+
+```toml
+[build-system]
+requires = ["setuptools >= 40.9.0"]
+build-backend = "setuptools.build_meta"
+```
+
+</div>
+
+<div>
+
+- Poetry & Poetry-core
+
+E.g.:
+
+```toml
+[build-system]
+requires = [
+  "poetry-core >= 1.0.0",
+  "poetry-dynamic-versioning >= 0.23.0",
+]
+build-backend = "poetry_dynamic_versioning.backend"
+```
+
+</div>
+
+</div>
+
+<!--
+One should not mix between Poetry and the rest.
+-->
 
 ---
 
@@ -289,14 +333,6 @@ As Poetry frontend builds `poetry-core` projects.
 
 - <octicon-cache-16 class="text-3x1" /> - caching environments
 - <jam-shield-half class="text-4x2" /> - improving supply chain security
-
----
-
-# List of Tools
-
-* Hatch & Hatchling
-* Poetry & Poetry-core
-* PDM & PDM-Backend
 
 ---
 
