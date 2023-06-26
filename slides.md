@@ -191,6 +191,13 @@ $ poetry add torch
 
 ---
 
+# <fxemoji-lock /> Locking Dependencies
+
+- <octicon-cache-16 class="text-3x1" /> - caching environments
+- <jam-shield-half class="text-4x2" /> - improving supply chain security
+
+---
+
 # On par with Other Langauges
 
 |                  | Language  | Tools              | Manifest file    |
@@ -311,13 +318,6 @@ build-backend = "poetry_dynamic_versioning.backend"
 <!--
 One should not mix between Poetry and the rest.
 -->
-
----
-
-# <fxemoji-lock /> Locking Dependencies
-
-- <octicon-cache-16 class="text-3x1" /> - caching environments
-- <jam-shield-half class="text-4x2" /> - improving supply chain security
 
 ---
 
