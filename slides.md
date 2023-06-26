@@ -82,6 +82,52 @@ h1 {
 </style>
 
 ---
+transition: fade
+---
+
+# Development Life Cycle
+
+Typically, when working on a software project we:
+
+1. Think about a solution and implement it.
+2. Test it in different environments and collaborate with colleagues.
+3. Ship it to users.
+
+---
+transition: slide-up
+---
+
+# Development Life Cycle in Python <logos-python />
+
+Specifically, in Python, we encounter these tasks regularly:
+
+1. Open a *virtual environment* (venv), add dependencies, write Python code.
+2. Change dependencies, run tests on another system.
+3. Publish a package to PyPI/internally, or change a Docker image.
+
+<v-click>
+
+Sounds easy, right?
+
+Almost...
+
+1. Virtual environments are clumsy and making them reproducible and **stable** with `pip` and `requirements.txt` is not trivial.
+2. Is the same package version installed on my venv and somewhere else? 
+3. Do you want to not duplicate the package version in code and in the metadata? Choose one of 7 ways.
+
+</v-click>
+
+---
+
+# Complaints From the Past
+
+Rust Developer complains about the Python packaging system:
+
+<Transform scale=2.5>
+<Youtube id="9g8mp8TqAQ0" />
+</Transform>
+
+---
 
 # Python Project
 
