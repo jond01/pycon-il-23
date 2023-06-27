@@ -503,6 +503,22 @@ Some more criticism of Poetry is available here, by [Henry Schreiner](https://is
 - Its development has begun this year by [Flask's author](https://lucumr.pocoo.org/).
 - Cross platform, built in Rust (<logos-rust /> for <logos-python />).
 
+<style>
+.slidev-layout {
+  background-image: url("https://raw.githubusercontent.com/mitsuhiko/rye/main/docs/static/banner.png");
+  background-repeat: repeat-y;
+  color: black;
+  
+  h1 {
+    color: white;
+  }
+  
+  p {
+    color: #fec742;
+    opacity: 1;
+  }
+}
+</style>
 
 ---
 
