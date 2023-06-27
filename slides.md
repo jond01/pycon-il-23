@@ -416,20 +416,30 @@ transition: fade
   v-click="4"
   src="images/logos/isort.png"
   alt="Isort logo"
+  style="height: 80px; margin-top: -25px;"
 />
 
 
-<div v-click="5">
-<img src="images/logos/pylint.svg" alt="Pylint logo"/>
+<div v-click="5" style="display: flex; font-size: 60px;">
+<div>
+<img
+  src="images/logos/pylint.svg"
+  alt="Pylint logo"
+  style="height: 83px;"
+/>
+</div>
+<div style="margin-top: 10px; margin-left: 30px;">
 <p>
 Pylint
 </p>
+</div>
 </div>
 
 <img
   v-click="6"
   src="images/logos/mypy.svg"
   alt="Mypy logo"
+  style="height: 65px;"
 />
 
 </div>
