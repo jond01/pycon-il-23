@@ -413,14 +413,14 @@ transition: fade
 <div>
 
 <img
-  v-click="5"
+  v-click="6"
   src="images/logos/isort.png"
   alt="Isort logo"
-  style="height: 80px; margin-top: -25px;"
+  style="height: 80px; margin-top: -25px; margin-left: 15px;"
 />
 
 
-<div v-click="6" style="display: flex; font-size: 60px;">
+<div v-click="7" style="display: flex; font-size: 60px;">
 <div>
 <img
   src="images/logos/pylint.svg"
@@ -436,18 +436,33 @@ Pylint
 </div>
 
 <img
-  v-click="7"
+  v-click="8"
   src="images/logos/mypy.svg"
   alt="Mypy logo"
   style="height: 65px;"
 />
 
 <img
-  v-click="8"
+  v-click="9"
   src="images/logos/pytest.svg"
   alt="Pytest logo"
+  style="height: 76px;"
+/>
+
+<div v-click="10" style="display: flex; font-size: 55px;">
+<div>
+<img
+  src="images/logos/coverage.png"
+  alt="Coverage logo"
   style="height: 80px;"
 />
+</div>
+<div style="margin-top: 10px; margin-left: 15px;">
+<p>
+Coverage.py
+</p>
+</div>
+</div>
 
 </div>
 
