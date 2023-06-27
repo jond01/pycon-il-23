@@ -244,7 +244,7 @@ layout: cover
 background: ./images/ship.jpg
 ---
 
-# **Building Packages with `pyproject.toml`**
+# **Building Packages from `pyproject.toml`**
 
 ---
 transition: fade
