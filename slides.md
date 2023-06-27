@@ -409,6 +409,46 @@ If the package is typed, expect a single empty `py.typed` file next to the top-l
 transition: fade
 ---
 
+<div grid="~ cols-2 gap-2" m="-t-2">
+<div></div>
+
+<div>
+
+```toml {1|3-4|6-8|10-12|14-16|18-25|all}
+# pyproject.toml
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint]
+enable = ["I"]
+fail-on = ["useless-suppression"]
+
+[tool.mypy]
+strict = true
+exclude = ["dist/"]
+
+[tool.pytest.ini_options]
+filterwarnings = ["error"]
+addopts = ["--import-mode=importlib"]
+
+[tool.coverage.run]
+branch = true
+source = ["<package>"]
+
+[tool.coverage.report]
+fail_under = 100
+show_missing = true
+skip_empty = true
+```
+
+</div>
+</div>
+
+---
+transition: fade
+---
+
 # <file-icons-config-python /> Configure Your Tools in `pyproject.toml`
 
 You can create diagrams / graphs from textual descriptions, directly in your Markdown.
