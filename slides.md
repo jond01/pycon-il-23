@@ -395,7 +395,7 @@ If the package is typed, expect a single empty `py.typed` file next to the top-l
 transition: slide-up
 ---
 
-# <mdi-cog /> Configure Your Tools in `pyproject.toml`
+# <file-icons-config-python /> Configure Your Tools in `pyproject.toml`
 
 You can create diagrams / graphs from textual descriptions, directly in your Markdown.
 
