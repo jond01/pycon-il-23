@@ -342,42 +342,14 @@ One should not mix between Poetry and the rest.
 -->
 
 ---
-layout: image
-image: ./images/warehouse.jpg
+layout: cover
+background: ./images/warehouse.jpg
 transition: slide-up
-class: text-center
 ---
 
-<div class="container">
-  <div class="center">
 
 # **`pyproject.toml` as Tools Configuration Source**
 
-  </div>
-</div>
-
-<style>
-.container {
-  top: 20%;
-  height: 200px;
-  position: relative;
-}
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-h1 {
-  background-image: linear-gradient(to bottom right, #d2e1ea, #bf8263);
-}
-code {
-  background-color: rgba(0, 0, 0, 0);
-  font-weight: bold;
-}
-</style>
 
 ---
 transition: slide-up
