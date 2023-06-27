@@ -412,17 +412,25 @@ transition: fade
 <div grid="~ cols-2 gap-2" m="-t-2">
 <div>
 
-<img v-click="4" src="https://raw.githubusercontent.com/PyCQA/isort/main/art/logo_large.png" alt="Isort logo"/>
+<img
+  v-click="4"
+  src="images/logos/isort.png"
+  alt="Isort logo"
+/>
 
 
 <div v-click="5">
-<img src="https://raw.githubusercontent.com/pylint-dev/pylint/main/doc/logo.svg" alt="Pylint logo"/>
+<img src="images/logos/pylint.svg" alt="Pylint logo"/>
 <p>
 Pylint
 </p>
 </div>
 
-<img v-click="6" src="https://raw.githubusercontent.com/python/mypy/4d94271b37dd2912e3030c5c5d71fd22099e0eb2/docs/source/mypy_light.svg" alt="Mypy logo"/>
+<img
+  v-click="6"
+  src="images/logos/mypy.svg"
+  alt="Mypy logo"
+/>
 
 </div>
 
