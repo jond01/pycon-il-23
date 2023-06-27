@@ -344,7 +344,7 @@ One should not mix between Poetry and the rest.
 ---
 layout: cover
 background: ./images/warehouse.jpg
-transition: slide-up
+transition: fade
 ---
 
 
@@ -352,7 +352,7 @@ transition: slide-up
 
 
 ---
-transition: slide-up
+transition: fade
 ---
 
 # Python Project
@@ -406,7 +406,7 @@ If the package is typed, expect a single empty `py.typed` file next to the top-l
 -->
 
 ---
-transition: slide-up
+transition: fade
 ---
 
 # <file-icons-config-python /> Configure Your Tools in `pyproject.toml`
