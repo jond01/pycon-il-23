@@ -1,3 +1,9 @@
 :not(pre) > code::before, :not(pre) > code::after {
 	content: "";
 }
+
+.cover {
+	h1 code, h2 code {
+		background: transparent;
+	}
+}

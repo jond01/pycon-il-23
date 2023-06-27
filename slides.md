@@ -46,7 +46,6 @@ requires = ["slidev"]
   margin: auto;
 }
 code {
-  background-color: rgba(0, 0, 0, 0);
   font-weight: bold;
 }
 </style>
