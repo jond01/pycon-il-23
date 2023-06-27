@@ -240,6 +240,13 @@ Lock files:
 -->
 
 ---
+layout: cover
+background: ./images/ship.jpg
+---
+
+# **Building Packages with `pyproject.toml`**
+
+---
 transition: fade
 ---
 
