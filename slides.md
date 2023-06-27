@@ -45,9 +45,6 @@ requires = ["slidev"]
   width: 50%;
   margin: auto;
 }
-code {
-  font-weight: bold;
-}
 </style>
 
 <!--
