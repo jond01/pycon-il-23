@@ -500,29 +500,29 @@ skip_empty = true
 </div>
 
 ---
+class: text-center
 transition: fade
 ---
 
 # <file-icons-config-python /> Configure Your Tools in `pyproject.toml`
 
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="gap-10 pt-4 -mb-6">
-
 ```mermaid
 mindmap
-  root(pyproject.toml)
-  ::icon(mdi mdi-cog)
-  ::icon(fa fa-cog)
-    Pytest
-    Ruff
-    Pylint
-    Mypy
+  (pyproject.toml)
+    [Tox]
+    [Black]
+    [Ruff]
+    ((Pylint))
+    ((Mypy))
+    ((Pytest))
+    ((Coverage))
+    ((Isort))
 ```
 
-</div>
-
 <!--
+Mention:
+Black, Tox, and Ruff.
+
 If you build a new tool - support configuring it from `pyproject.toml`.
 In Python 3.11+ - use the builtin `tomllib` for reading it.
 -->
