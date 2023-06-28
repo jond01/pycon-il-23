@@ -537,7 +537,16 @@ In Python 3.11+ - use the builtin `tomllib` for reading it.
 Avoid a clutter of tens of files for all the tools, and configure them all in
 <code>pyproject.toml</code>.
 
-See the situation for TypeScript projects:
+See the situation for TypeScript <logos-typescript-icon /> projects:
+<br/>
+<br/>
+
+<v-click>
+
+Well done Python <logos-python />!
+
+</v-click>
+
 </div>
 
 <div>
