@@ -534,7 +534,7 @@ In Python 3.11+ - use the builtin `tomllib` for reading it.
 <div grid="~ cols-2 gap-2" m="-t-2">
 
 <div>
-Avoid a clutter of tens of files for each tool, and configure them all in
+Avoid a clutter of tens of files for all the tools, and configure them all in
 <code>pyproject.toml</code>.
 
 See the situation for TypeScript projects:
