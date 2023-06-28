@@ -636,7 +636,7 @@ Some more criticism of Poetry is available here, by [Henry Schreiner](https://is
 
 <p align="center">
   <a href="https://rye-up.com/">
-  <img src="https://raw.githubusercontent.com/mitsuhiko/rye/main/docs/static/favicon.svg"
+  <img src="images/logos/rye.svg"
   alt="Rye logo" style="width: 10%;" />
   </a>
 </p>
@@ -648,7 +648,7 @@ Some more criticism of Poetry is available here, by [Henry Schreiner](https://is
 
 <style>
 .slidev-layout {
-  background-image: url("https://raw.githubusercontent.com/mitsuhiko/rye/main/docs/static/banner.png");
+  background-image: url("images/rye-banner-bg.png");
   background-repeat: repeat-y;
   color: black;
   
