@@ -670,9 +670,12 @@ layout: center
 
 # Thank You
 
-The slides:<br/>
-[`jond01.github.io/blog/pycon-il-23`](https://jond01.github.io/blog/pycon-il-23/)
+The slides:
+<div style="font-family: var(--slidev-code-font-family);">
+
+[jond01.github.io/blog/pycon-il-23](https://jond01.github.io/blog/pycon-il-23/)
 
 
-<carbon-logo-github /> [`jond01`](https://github.com/jond01)<br/>
-<carbon-logo-linkedin /> [`jonathan--daniel`](https://www.linkedin.com/in/jonathan--daniel/)
+<carbon-logo-github /> [jond01](https://github.com/jond01)<br/>
+<carbon-logo-linkedin /> [jonathan&ndash;&ndash;daniel](https://www.linkedin.com/in/jonathan--daniel/)
+</div>
