@@ -533,6 +533,8 @@ Black, Tox, and Ruff.
 -->
 
 ---
+transition: fade
+---
 
 # `tomllib` - New in Python 3.11
 
@@ -567,6 +569,8 @@ In Python 3.11+ - use the builtin `tomllib` for reading it.
 https://docs.python.org/3/whatsnew/3.11.html#summary-release-highlights
 -->
 
+---
+transition: slide-up
 ---
 
 # Why Bother About One Config File?
