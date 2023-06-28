@@ -529,6 +529,38 @@ In Python 3.11+ - use the builtin `tomllib` for reading it.
 
 ---
 
+# `tomllib` - New in Python 3.11
+
+New standard library module `tomllib` - support for parsing TOML.
+
+```py
+>>> import tomllib
+>>> with open("pyproject.toml", "rb") as f:
+>>>     config = tomllib.load(f)
+>>> config["tool"]["mypy"]
+{'strict': True, 'exclude': ['dist/']}
+```
+
+If you write a new tool for Python - support `pyproject.toml` configuration.
+
+<div style="
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 65px;
+">
+
+<logos-python /> 🤝 <logos-toml />
+
+</div>
+
+<!--
+https://docs.python.org/3/whatsnew/3.11.html#summary-release-highlights
+-->
+
+---
+
 # Why Bother About One Config File?
 
 <div grid="~ cols-2 gap-2" m="-t-2">
