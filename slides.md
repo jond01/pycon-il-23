@@ -686,3 +686,9 @@ The slides:
 <carbon-logo-github /> [jond01](https://github.com/jond01)<br/>
 <carbon-logo-linkedin /> [jonathan&ndash;&ndash;daniel](https://www.linkedin.com/in/jonathan--daniel/)
 </div>
+
+<style>
+h1 {
+  text-align: center;
+}
+</style>
