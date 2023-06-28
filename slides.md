@@ -532,7 +532,7 @@ In Python 3.11+ - use the builtin `tomllib` for reading it.
 
 # `tomllib` - New in Python 3.11
 
-New standard library module `tomllib` - support for parsing TOML.
+New standard library module: `tomllib` - support for parsing TOML.
 
 ```py
 >>> import tomllib
