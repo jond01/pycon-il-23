@@ -530,9 +530,6 @@ mindmap
 <!--
 Mention:
 Black, Tox, and Ruff.
-
-If you build a new tool - support configuring it from `pyproject.toml`.
-In Python 3.11+ - use the builtin `tomllib` for reading it.
 -->
 
 ---
@@ -564,6 +561,9 @@ If you write a new tool for Python - support `pyproject.toml` configuration.
 </div>
 
 <!--
+If you build a new tool - support configuring it from `pyproject.toml`.
+In Python 3.11+ - use the builtin `tomllib` for reading it.
+
 https://docs.python.org/3/whatsnew/3.11.html#summary-release-highlights
 -->
 
