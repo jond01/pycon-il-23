@@ -501,11 +501,16 @@ skip_empty = true
 </div>
 
 ---
-class: text-center
 transition: fade
 ---
 
 # <file-icons-config-python /> Configure Your Tools in `pyproject.toml`
+
+
+<div style="
+  margin: auto;
+  width: 50%;
+">
 
 ```mermaid
 mindmap
@@ -519,6 +524,8 @@ mindmap
     ((Coverage))
     ((Isort))
 ```
+
+</div>
 
 <!--
 Mention:
