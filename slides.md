@@ -98,11 +98,29 @@ transition: fade
 
 # Development Life Cycle
 
-Typically, when working on a software project we:
+When working on a software project we:
 
-1. 👨‍💻 Think about a solution and implement it
-2. ✅ Test in different environments and pass checks
-3. 🚀 Ship to users
+<div grid="~ cols-2 gap-2" m="-t-2">
+
+<div>
+
+1. Think about a solution and implement it
+2. Test in different environments and pass checks
+3. Ship to users
+
+</div>
+
+<div>
+<img
+  src="images/excalidraw/code-test-release.svg"
+  style="width: 45%; margin: auto;"
+/>
+</div>
+</div>
+
+<!--
+https://excalidraw.com/#json=CJdJGbUGhuhObHECY9x9d,BhNmthqf7VSQFyPmHn8kew
+-->
 
 ---
 transition: slide-up
