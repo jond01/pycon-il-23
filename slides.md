@@ -10,7 +10,7 @@ info: |
   Learn more at [Sli.dev](https://sli.dev)
 drawings:
   persist: false
-transition: slide-left
+transition: fade
 title: PyCon IL 23 - Jonathan Daniel
 background: https://images.unsplash.com/photo-1588153191435-c890d9adbb99?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHw5NDczNDU2Nnx8fHx8fHwxNjg2NDk4NDgz&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920
 ---
@@ -100,9 +100,9 @@ transition: fade
 
 Typically, when working on a software project we:
 
-1. Think about a solution and implement it
-2. Test in different environments and pass checks
-3. Ship to users
+1. 👨‍💻 Think about a solution and implement it
+2. ✅ Test in different environments and pass checks
+3. 🚀 Ship to users
 
 ---
 transition: slide-up
