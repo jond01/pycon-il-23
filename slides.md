@@ -405,16 +405,6 @@ Well done Python <logos-python />!
 </div>
 
 ---
-
-# Complaints From the Past
-
-Rust Developer complains about the Python packaging system:
-
-<Transform scale=2.5>
-<Youtube id="9g8mp8TqAQ0" />
-</Transform>
-
----
 transition: slide-up
 ---
 
@@ -728,3 +718,16 @@ h1 {
   text-align: center;
 }
 </style>
+
+---
+hideInToc: true
+---
+
+# Complaints From the Past
+
+Rust Developer complains about the Python packaging system:
+
+<Transform scale=2.5>
+<Youtube id="9g8mp8TqAQ0" />
+</Transform>
+
