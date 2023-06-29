@@ -129,233 +129,6 @@ Almost...
 </v-click>
 
 ---
-
-# Complaints From the Past
-
-Rust Developer complains about the Python packaging system:
-
-<Transform scale=2.5>
-<Youtube id="9g8mp8TqAQ0" />
-</Transform>
-
----
-transition: slide-up
----
-
-# `pip` + `requirements.txt`
-
-Are they good enough?
-
-<div grid="~ cols-2 gap-2" m="-t-2">
-
-<div>
-
-```sh
-$ pip install torch
-```
-
-<v-click>
-
-```sh
-$ pip install numpy
-$ pip install pandas
-```
-
-</v-click>
-
-</div>
-
-<div>
-
-```
-# requirements.txt
-
-torch >= 1.11.0
-```
-
-</div>
-
-</div>
-
-<v-click>
-
-This tandem is high maintenance and error prone, not to mention multiple files.
-
-Is it in the venv?
-</v-click>
-
----
-transition: slide-up
----
-
-# Adding a Dependency with a Single Command
-
-Instead of maintaining multiple files and configs, adopt a modern package manager.
-
-Some examples are: `poetry`, `hatch`, `pdm`, all are CLI tools.
-
-Adding a dependency follows an idiomatic form:
-
-```sh
-$ poetry add torch
-```
-
-<v-click>
-
-Bonus:
-
-If you use PDM or Poetry - you get a lock file:
-
-- `pdm.lock`
-- `poetry.lock`
-
-</v-click>
-
----
-
-# <fxemoji-lock /> Locking Dependencies
-
-Why do you need a `.lock` file?
-
-Reliable and reproducible venvs for applications.
-
-- <octicon-cache-16 class="text-3x1" /> - caching environments
-- <jam-shield-half class="text-4x2" /> - improving supply chain security
-
-<!--
-Mention the changing world: software, PyPI.
-Renovate by Mend, Dependabot by GitHub, Snyk.
--->
-
----
-
-# On par with Other Langauges
-
-|                  | Language  | Tools              | Manifest file    |
-|------------------|-----------|--------------------|------------------|
-| <logos-python /> | Python    | hatch, pdm, poetry | `pyproject.toml` |
-| <logos-nodejs /> | Node.js * | npm, yarn, pnpm    | `package.json`   |
-| <logos-rust />   | Rust      | cargo              | `Cargo.toml`     |
-
-
-<!--
-* Node.js is a runtime for the JavaScript language.
-
-Lock files:
-- Python:
-  - The rejected [PEP 665](https://peps.python.org/pep-0665/)
-  - Poetry (`poetry.lock`): https://python-poetry.org/docs/libraries#lock-file
-  - PDM (`pdm.lock`): https://pdm.fming.dev/latest/usage/dependency/#install-the-packages-pinned-in-lock-file
-- Node.js (see https://pnpm.io/feature-comparison):
-  - npm (`package-lock.json`): https://docs.npmjs.com/cli/v9/configuring-npm/package-lock-json
-  - yarn (`yarn.lock`): https://yarnpkg.com/getting-started/qa#should-lockfiles-be-committed-to-the-repository
-  - pnpm (`pnpm-lock.yaml`): https://pnpm.io/git#lockfiles
-- Rust (`Cargo.lock`): https://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock.html
--->
-
----
-layout: cover
-background: ./images/ship.jpg
----
-
-# **Building Packages from `pyproject.toml`**
-
----
-transition: fade
----
-
-# Build System and Backend
-
-For example:
-
-```toml
-# pyproject.toml
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-```
-
-`requires` is a list of Python packages used to build the project.
-Hatchling is a *build backend*.
-
-The following command can build the project:
-
-```sh
-$ hatch build
-```
-
-Hatch is a *build frontend*.
-
----
-transition: slide-up
----
-
-# Build System and Backend
-
-The project can also be built by `pip` *frontend*:
-
-```sh
-$ pip wheel .
-```
-
-But NOT:
-
-```sh
-$ poetry build
-```
-
-As Poetry frontend builds only `poetry-core` projects.
-
----
-
-# Build Frontends and Backends
-
-Build frontend = the CLI, build backend = the Python package that builds the project.
-
-<div grid="~ cols-2 gap-2" m="-t-2">
-
-<div>
-
-- Pip & setuptools
-- Flit & flit_core
-- PDM & PDM-Backend
-- Hatch & Hatchling
-
-E.g.:
-
-```toml
-[build-system]
-requires = ["setuptools >= 40.9.0"]
-build-backend = "setuptools.build_meta"
-```
-
-</div>
-
-<div>
-
-- Poetry & Poetry-core
-
-E.g.:
-
-```toml
-[build-system]
-requires = [
-  "poetry-core >= 1.0.0",
-  "poetry-dynamic-versioning >= 0.23.0",
-]
-build-backend = "poetry_dynamic_versioning.backend"
-```
-
-</div>
-
-</div>
-
-<!--
-One should not mix between Poetry and the rest.
--->
-
----
 layout: cover
 background: ./images/warehouse.jpg
 transition: fade
@@ -612,6 +385,233 @@ Well done Python <logos-python />!
 </div>
 
 </div>
+
+---
+
+# Complaints From the Past
+
+Rust Developer complains about the Python packaging system:
+
+<Transform scale=2.5>
+<Youtube id="9g8mp8TqAQ0" />
+</Transform>
+
+---
+transition: slide-up
+---
+
+# `pip` + `requirements.txt`
+
+Are they good enough?
+
+<div grid="~ cols-2 gap-2" m="-t-2">
+
+<div>
+
+```sh
+$ pip install torch
+```
+
+<v-click>
+
+```sh
+$ pip install numpy
+$ pip install pandas
+```
+
+</v-click>
+
+</div>
+
+<div>
+
+```
+# requirements.txt
+
+torch >= 1.11.0
+```
+
+</div>
+
+</div>
+
+<v-click>
+
+This tandem is high maintenance and error prone, not to mention multiple files.
+
+Is it in the venv?
+</v-click>
+
+---
+transition: slide-up
+---
+
+# Adding a Dependency with a Single Command
+
+Instead of maintaining multiple files and configs, adopt a modern package manager.
+
+Some examples are: `poetry`, `hatch`, `pdm`, all are CLI tools.
+
+Adding a dependency follows an idiomatic form:
+
+```sh
+$ poetry add torch
+```
+
+<v-click>
+
+Bonus:
+
+If you use PDM or Poetry - you get a lock file:
+
+- `pdm.lock`
+- `poetry.lock`
+
+</v-click>
+
+---
+
+# <fxemoji-lock /> Locking Dependencies
+
+Why do you need a `.lock` file?
+
+Reliable and reproducible venvs for applications.
+
+- <octicon-cache-16 class="text-3x1" /> - caching environments
+- <jam-shield-half class="text-4x2" /> - improving supply chain security
+
+<!--
+Mention the changing world: software, PyPI.
+Renovate by Mend, Dependabot by GitHub, Snyk.
+-->
+
+---
+
+# On par with Other Langauges
+
+|                  | Language  | Tools              | Manifest file    |
+|------------------|-----------|--------------------|------------------|
+| <logos-python /> | Python    | hatch, pdm, poetry | `pyproject.toml` |
+| <logos-nodejs /> | Node.js * | npm, yarn, pnpm    | `package.json`   |
+| <logos-rust />   | Rust      | cargo              | `Cargo.toml`     |
+
+
+<!--
+* Node.js is a runtime for the JavaScript language.
+
+Lock files:
+- Python:
+  - The rejected [PEP 665](https://peps.python.org/pep-0665/)
+  - Poetry (`poetry.lock`): https://python-poetry.org/docs/libraries#lock-file
+  - PDM (`pdm.lock`): https://pdm.fming.dev/latest/usage/dependency/#install-the-packages-pinned-in-lock-file
+- Node.js (see https://pnpm.io/feature-comparison):
+  - npm (`package-lock.json`): https://docs.npmjs.com/cli/v9/configuring-npm/package-lock-json
+  - yarn (`yarn.lock`): https://yarnpkg.com/getting-started/qa#should-lockfiles-be-committed-to-the-repository
+  - pnpm (`pnpm-lock.yaml`): https://pnpm.io/git#lockfiles
+- Rust (`Cargo.lock`): https://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock.html
+-->
+
+---
+layout: cover
+background: ./images/ship.jpg
+---
+
+# **Building Packages from `pyproject.toml`**
+
+---
+transition: fade
+---
+
+# Build System and Backend
+
+For example:
+
+```toml
+# pyproject.toml
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+```
+
+`requires` is a list of Python packages used to build the project.
+Hatchling is a *build backend*.
+
+The following command can build the project:
+
+```sh
+$ hatch build
+```
+
+Hatch is a *build frontend*.
+
+---
+transition: slide-up
+---
+
+# Build System and Backend
+
+The project can also be built by `pip` *frontend*:
+
+```sh
+$ pip wheel .
+```
+
+But NOT:
+
+```sh
+$ poetry build
+```
+
+As Poetry frontend builds only `poetry-core` projects.
+
+---
+
+# Build Frontends and Backends
+
+Build frontend = the CLI, build backend = the Python package that builds the project.
+
+<div grid="~ cols-2 gap-2" m="-t-2">
+
+<div>
+
+- Pip & setuptools
+- Flit & flit_core
+- PDM & PDM-Backend
+- Hatch & Hatchling
+
+E.g.:
+
+```toml
+[build-system]
+requires = ["setuptools >= 40.9.0"]
+build-backend = "setuptools.build_meta"
+```
+
+</div>
+
+<div>
+
+- Poetry & Poetry-core
+
+E.g.:
+
+```toml
+[build-system]
+requires = [
+  "poetry-core >= 1.0.0",
+  "poetry-dynamic-versioning >= 0.23.0",
+]
+build-backend = "poetry_dynamic_versioning.backend"
+```
+
+</div>
+
+</div>
+
+<!--
+One should not mix between Poetry and the rest.
+-->
 
 ---
 
