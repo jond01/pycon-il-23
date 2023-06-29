@@ -100,9 +100,9 @@ transition: fade
 
 Typically, when working on a software project we:
 
-1. Think about a solution and implement it.
-2. Test it in different environments and collaborate with colleagues.
-3. Ship it to users.
+1. Think about a solution and implement it
+2. Test in different environments and pass checks
+3. Ship to users
 
 ---
 transition: slide-up
@@ -112,9 +112,9 @@ transition: slide-up
 
 Specifically, in Python, we encounter these tasks regularly:
 
-1. Open a *virtual environment* (venv), add dependencies, write Python code.
-2. Change dependencies, run tests, checks and linters on another system.
-3. Publish a package to PyPI/internally, or change a Docker image.
+1. Open a *virtual environment* (venv), add dependencies, write Python code
+2. Run tests, checks and linters
+3. Publish a package to PyPI/internally, or change a Docker image
 
 <v-click>
 
@@ -122,9 +122,9 @@ Sounds easy, right?
 
 Almost...
 
-1. Virtual environments are clumsy and making them reproducible and **stable** with `pip` and `requirements.txt` is not trivial.
-2. Is the same package version installed on my venv and somewhere else? 
-3. Do you want to not duplicate the package version in code and in the metadata? Choose one of 7 ways.
+- What are all the tools used?
+- Venvs are not trivial to precisely reproduce with `pip`
+- Missing `.whl` for your platform - manually compile from source
 
 </v-click>
 
