@@ -47,6 +47,18 @@ requires = ["slidev"]
 }
 </style>
 
+
+---
+transition: fade
+---
+
+# Who am I?
+
+- Software and Algorithm Engineer
+- Python is my main language in the past 6+ years, across multiple domains
+- Released a few packages to PyPI
+- (A bit) Obsessed with order and organization
+
 <!--
 Talk a bit about:
 1. The topic, why is it worth the time
