@@ -705,7 +705,7 @@ Some more criticism of Poetry is available here, by [Henry Schreiner](https://is
 
 ---
 
-# Take Aways from the Talk
+# Takeaways
 
 - `pyproject.toml` is here to stay
 - The modern build frontends provide much more than a package -> `.whl` solution - they let you also manage dependencies
