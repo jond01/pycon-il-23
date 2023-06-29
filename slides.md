@@ -451,7 +451,7 @@ Is it in the venv?
 </v-click>
 
 ---
-transition: slide-up
+transition: fade
 ---
 
 # Adding a Dependency with a Single Command
@@ -477,6 +477,8 @@ If you use PDM or Poetry - you get a lock file:
 
 </v-click>
 
+---
+transition: fade
 ---
 
 # <fxemoji-lock /> Locking Dependencies
@@ -522,6 +524,7 @@ Lock files:
 ---
 layout: cover
 background: ./images/ship.jpg
+transition: fade
 ---
 
 # **Building Packages from `pyproject.toml`**
@@ -554,7 +557,7 @@ $ hatch build
 Hatch is a *build frontend*.
 
 ---
-transition: slide-up
+transition: fade
 ---
 
 # Build System and Backend
@@ -573,6 +576,8 @@ $ poetry build
 
 As Poetry frontend builds only `poetry-core` projects.
 
+---
+transition: slide-up
 ---
 
 # Build Frontends and Backends
