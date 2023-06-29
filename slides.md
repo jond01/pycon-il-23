@@ -190,6 +190,7 @@ With all the configurations and the dependencies in `pyproject.toml`:
 .
 ├── README.md
 ├── pyproject.toml
+├── poetry.lock
 └── <package>/
     ├── __init__.py
     └── <py files>
