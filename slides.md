@@ -60,22 +60,20 @@ transition: fade
 - (A bit) Obsessed with order and organization
 
 <!--
-Talk a bit about:
-1. The topic, why is it worth the time
-2. Myself, why I'm speaking to you today
+Talk a bit about myself, why I'm speaking to you today.
 -->
 
 ---
-transition: fade-out
+transition: fade
 ---
 
 # What is the Talk About?
 
 The latest standards and tools for managing Python projects. <logos-python />
 
-- **Build systems** - transform the source package into a distributable wheel file
-- **Package managers** - manage the project dependencies and virtual environments
-- **`pyproject.toml`** - project configuration, including the build system and the dependencies
+1. **`pyproject.toml`** - project configuration source
+2. **Package managers** - manage the dependencies and virtual environments
+3. **Build systems** - source code → distributable wheel
 
 
 <style>
@@ -89,6 +87,10 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 </style>
+
+<!--
+Why is the topic worth your time?
+-->
 
 ---
 transition: fade
