@@ -505,6 +505,8 @@ Renovate by Mend, Dependabot by GitHub, Snyk.
 -->
 
 ---
+transition: slide-up
+---
 
 # On par with Other Langauges
 
