@@ -339,7 +339,7 @@ Black, Tox, and Ruff.
 -->
 
 ---
-transition: fade
+transition: slide-up
 ---
 
 # `tomllib` - New in Python 3.11
@@ -374,36 +374,6 @@ In Python 3.11+ - use the builtin `tomllib` for reading it.
 
 https://docs.python.org/3/whatsnew/3.11.html#summary-release-highlights
 -->
-
----
-transition: slide-up
----
-
-# Why Bother About One Config File?
-
-<div grid="~ cols-2 gap-2" m="-t-2">
-
-<div>
-Avoid a clutter of tens of files for all the tools, and configure them all in
-<code>pyproject.toml</code>.
-
-See the situation for TypeScript <logos-typescript-icon /> projects:
-<br/>
-<br/>
-
-<v-click>
-
-Well done Python <logos-python />!
-
-</v-click>
-
-</div>
-
-<div>
-<Tweet id="1672839156647575552" scale=0.65 />
-</div>
-
-</div>
 
 ---
 transition: fade
@@ -739,6 +709,38 @@ h1 {
 
 ---
 hideInToc: true
+transition: slide-up
+---
+
+# Why Bother About One Config File?
+
+<div grid="~ cols-2 gap-2" m="-t-2">
+
+<div>
+Avoid a clutter of tens of files for all the tools, and configure them all in
+<code>pyproject.toml</code>.
+
+See the situation for TypeScript <logos-typescript-icon /> projects:
+<br/>
+<br/>
+
+<v-click>
+
+Well done Python <logos-python />!
+
+</v-click>
+
+</div>
+
+<div>
+<Tweet id="1672839156647575552" scale=0.65 />
+</div>
+
+</div>
+
+---
+hideInToc: true
+transition: slide-up
 ---
 
 # Complaints From the Past
