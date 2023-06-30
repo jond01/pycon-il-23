@@ -112,7 +112,7 @@ When working on a software project we:
 
 <div>
 <img
-  src="images/excalidraw/code-test-release.svg"
+  src="public/images/excalidraw/code-test-release.svg"
   style="width: 45%; margin: auto;"
 />
 </div>
@@ -221,7 +221,7 @@ transition: fade
 
 <img
   v-click="6"
-  src="images/logos/isort.png"
+  src="public/images/logos/isort.png"
   alt="Isort logo"
   style="height: 80px; margin-top: -25px; margin-left: 15px;"
 />
@@ -230,7 +230,7 @@ transition: fade
 <div v-click="7" style="display: flex; font-size: 60px;">
 <div>
 <img
-  src="images/logos/pylint.svg"
+  src="public/images/logos/pylint.svg"
   alt="Pylint logo"
   style="height: 83px;"
 />
@@ -244,14 +244,14 @@ Pylint
 
 <img
   v-click="8"
-  src="images/logos/mypy.svg"
+  src="public/images/logos/mypy.svg"
   alt="Mypy logo"
   style="height: 65px;"
 />
 
 <img
   v-click="9"
-  src="images/logos/pytest.svg"
+  src="public/images/logos/pytest.svg"
   alt="Pytest logo"
   style="height: 76px;"
 />
@@ -259,7 +259,7 @@ Pylint
 <div v-click="10" style="display: flex; font-size: 55px;">
 <div>
 <img
-  src="images/logos/coverage.png"
+  src="public/images/logos/coverage.png"
   alt="Coverage logo"
   style="height: 80px;"
 />
@@ -649,7 +649,7 @@ Some more criticism of Poetry is available here, by [Henry Schreiner](https://is
 
 <p align="center">
   <a href="https://rye-up.com/">
-  <img src="images/logos/rye.svg"
+  <img src="public/images/logos/rye.svg"
   alt="Rye logo" style="width: 10%;" />
   </a>
 </p>
@@ -661,7 +661,7 @@ Some more criticism of Poetry is available here, by [Henry Schreiner](https://is
 
 <style>
 .slidev-layout {
-  background-image: url("images/rye-banner-bg.png");
+  background-image: url("public/images/rye-banner-bg.png");
   background-repeat: repeat-y;
   color: black;
   
