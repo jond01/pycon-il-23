@@ -716,6 +716,7 @@ Some more criticism of Poetry is available here, by [Henry Schreiner](https://is
 
 ---
 layout: center
+transition: slide-up
 ---
 
 # Thank You
