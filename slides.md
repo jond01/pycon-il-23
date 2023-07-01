@@ -13,7 +13,7 @@ drawings:
 transition: fade
 title: PyCon IL 23 - Jonathan Daniel
 background: https://images.unsplash.com/photo-1588153191435-c890d9adbb99?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHw5NDczNDU2Nnx8fHx8fHwxNjg2NDk4NDgz&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920
-download: true
+download: https://jond01.github.io/pycon-il-23/slidev-exported.pdf
 ---
 
 <br/>
