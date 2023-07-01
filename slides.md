@@ -198,6 +198,19 @@ With all the configurations and the dependencies in `pyproject.toml`:
 
 Neat and tidy.
 
+
+<div style="
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 65px;
+">
+
+<logos-python /> 🤝 <logos-toml />
+
+</div>
+
 </div>
 
 </div>
@@ -355,18 +368,6 @@ New standard library module: `tomllib` - support for parsing TOML.
 ```
 
 If you write a new tool for Python - support `pyproject.toml` configuration.
-
-<div style="
-  position: absolute;
-  top: 63%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 65px;
-">
-
-<logos-python /> 🤝 <logos-toml />
-
-</div>
 
 <!--
 If you build a new tool - support configuring it from `pyproject.toml`.
