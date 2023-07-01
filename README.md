@@ -1,11 +1,11 @@
 # PyCon IL 2023 - Jonathan Daniel
 
-My talk and materials for PyCon IL 2023:
-> *Build Systems, Package Managers, pyproject.toml and you - how to work with Python in 2023*
+My talk for PyCon IL 2023:
+> *Build Systems, Package Managers, `pyproject.toml` and you - how to work with Python in 2023*
 
 * Talk: https://cfp.pycon.org.il/conference2023/talk/DEZUBS/
 * Event: https://2023.pycon.org.il/
-
+* Deployed slides: https://jond01.github.io/pycon-il-23/
 
 ## Presentation
 
