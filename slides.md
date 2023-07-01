@@ -4,10 +4,10 @@ class: text-center
 highlighter: shiki
 lineNumbers: false
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  ## PyCon Israel 2023, Jonathan Daniel
 
-  Learn more at [Sli.dev](https://sli.dev)
+  Build Systems, Package Managers, `pyproject.toml`
+  and you - how to work with Python in 2023
 drawings:
   persist: false
 transition: fade
