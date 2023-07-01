@@ -320,7 +320,7 @@ skip_empty = true
 </div>
 
 ---
-transition: fade
+transition: slide-up
 ---
 
 # <file-icons-config-python /> Configure Your Tools in `pyproject.toml`
@@ -346,30 +346,12 @@ mindmap
 
 </div>
 
+### New in Python 3.11: `tomllib` - standard library module for parsing TOML
+
 <!--
 Mention:
 Black, Tox, and Ruff.
--->
 
----
-transition: slide-up
----
-
-# `tomllib` - New in Python 3.11
-
-New standard library module: `tomllib` - support for parsing TOML.
-
-```py
->>> import tomllib
->>> with open("pyproject.toml", "rb") as f:
->>>     config = tomllib.load(f)
->>> config["tool"]["mypy"]
-{'strict': True, 'exclude': ['dist/']}
-```
-
-If you write a new tool for Python - support `pyproject.toml` configuration.
-
-<!--
 If you build a new tool - support configuring it from `pyproject.toml`.
 In Python 3.11+ - use the builtin `tomllib` for reading it.
 
