@@ -364,7 +364,11 @@ mindmap
 
 </div>
 
-### New in Python 3.11: `tomllib` - standard library module for parsing TOML
+<div style="font-size: 25px; margin-top: 10px;">
+
+<mdi-new-box /> Python 3.11: `tomllib` - standard library module for parsing TOML
+
+</div>
 
 <!--
 Mention:
