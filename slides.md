@@ -632,11 +632,11 @@ transition: slide-up
 
 # On par with Other Langauges
 
-|                  | Language  | Tools              | Manifest file    |
-|------------------|-----------|--------------------|------------------|
-| <logos-python /> | Python    | hatch, pdm, poetry | `pyproject.toml` |
-| <logos-nodejs /> | Node.js * | npm, yarn, pnpm    | `package.json`   |
-| <logos-rust />   | Rust      | cargo              | `Cargo.toml`     |
+|                  | Language  | Tools                        | Manifest file    | Lock file                                              |
+|------------------|-----------|------------------------------|------------------|--------------------------------------------------------|
+| <logos-python /> | Python    | `hatch`<br>`pdm`<br>`poetry` | `pyproject.toml` | (N/A)<br>`pdm.lock`<br>`poetry.lock`                   |
+| <logos-nodejs /> | Node.js * | `npm`<br>`yarn`<br>`pnpm`    | `package.json`   | `package-lock.json`<br>`yarn.lock`<br>`pnpm-lock.yaml` |
+| <logos-rust />   | Rust      | `cargo`                      | `Cargo.toml`     | `Cargo.lock`                                           |
 
 
 <!--
@@ -647,6 +647,7 @@ Lock files:
   - The rejected [PEP 665](https://peps.python.org/pep-0665/)
   - Poetry (`poetry.lock`): https://python-poetry.org/docs/libraries#lock-file
   - PDM (`pdm.lock`): https://pdm.fming.dev/latest/usage/dependency/#install-the-packages-pinned-in-lock-file
+  - Hatch: doesn't have yet, but planned - https://github.com/pypa/hatch/issues/749
 - Node.js (see https://pnpm.io/feature-comparison):
   - npm (`package-lock.json`): https://docs.npmjs.com/cli/v9/configuring-npm/package-lock-json
   - yarn (`yarn.lock`): https://yarnpkg.com/getting-started/qa#should-lockfiles-be-committed-to-the-repository
