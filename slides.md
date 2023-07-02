@@ -443,7 +443,7 @@ There are 3 major CLI tools:
 
 <div style="margin-left: 80px;">
 
-<div style="display: flex; font-size: 55px; margin-left: -5px;">
+<div style="display: flex; font-size: 55px; margin-left: -7px;">
 <div>
 <img
   src="/images/logos/hatch.svg"
@@ -473,7 +473,7 @@ Hatch
 </div>
 </div>
 
-<div style="display: flex; font-size: 55px; margin-top: 10px;">
+<div style="display: flex; font-size: 55px; margin-top: 10px; margin-left: 5px;">
 <div>
 <img
   src="/images/logos/poetry.svg"
