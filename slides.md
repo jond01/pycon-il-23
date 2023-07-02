@@ -71,9 +71,24 @@ transition: fade
 
 The latest standards and tools for managing Python projects. <logos-python />
 
+<div grid="~ cols-2 gap-2" m="-t-2">
+
+<div>
+
 1. **`pyproject.toml`** - project configuration source
 2. **Package managers** - manage the dependencies and virtual environments
 3. **Build systems** - source code → distributable wheel
+
+</div>
+
+<div>
+<img
+  src="/images/excalidraw/todays-talk.svg"
+  style="width: 85%; margin: auto;"
+/>
+</div>
+
+</div>
 
 
 <style>
@@ -90,6 +105,9 @@ h1 {
 
 <!--
 Why is the topic worth your time?
+
+Excalidraw link:
+https://excalidraw.com/#json=ezZzlh7lPrhMScvhX5CGh,ZstIkLIUOb2jIVcTbgniUw
 -->
 
 ---
