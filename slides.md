@@ -807,7 +807,7 @@ Some more criticism of Poetry is available here, by [Henry Schreiner](https://is
 # Takeaways
 
 - `pyproject.toml` is here to stay
-- The modern build frontends provide much more than a package -> `.whl` solution - they let you also manage dependencies
+- PDM, Poetry and Hatch offer a holistic approach to working with Python
 - Best to choose the proper tool for you and stick with it
 
 ---
