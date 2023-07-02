@@ -517,9 +517,55 @@ Some examples are: `poetry`, `hatch`, `pdm`, all are CLI tools.
 
 Adding a dependency follows an idiomatic form:
 
+<div grid="~ rows-3 cols-2 gap-2" m="-t-2" style="grid-template-rows: auto 1fr;">
+
+<div>
+Terminal
+</div>
+
+<div>
+<code>pyproject.toml</code>
+</div>
+
+<div>
+
 ```sh
 $ poetry add torch
 ```
+
+</div>
+
+<div>
+
+```toml
+[tool.poetry.dependencies]
+python = ">=3.8"
+torch = "^2.0.1"
+```
+
+</div>
+
+<div>
+
+```sh
+$ pdm add torch
+```
+
+</div>
+
+<div>
+
+```toml
+[project]
+requires-python = ">=3.8"
+dependencies = [
+  "torch>=2.0.1",
+]
+```
+
+</div>
+
+</div>
 
 <v-click>
 
