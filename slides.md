@@ -572,6 +572,10 @@ transition: fade
 
 Why do you need a `.lock` file?
 
+<div grid="~ cols-2 gap-2" m="-t-2">
+
+<div>
+
 If you use PDM or Poetry - you get a lock file:
 
 - `pdm.lock`
@@ -585,6 +589,22 @@ Reliable and reproducible venvs for applications.
 - <jam-shield-half class="text-4x2" /> - improving supply chain security
 
 </v-click>
+
+</div>
+
+
+<div>
+
+```mermaid
+flowchart TD
+    A["django == 4.2.2"] --> B["asgiref >= 3.7.0"]
+    A --> C["sqlparse >= 0.3.1"]
+    A -->|sys_platform == 'win32'| D[tzdata]
+```
+
+</div>
+
+</div>
 
 <!--
 Mention the changing world: software, PyPI.
