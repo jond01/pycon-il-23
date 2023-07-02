@@ -518,20 +518,20 @@ Adding a dependency follows an idiomatic form:
 <div grid="~ rows-3 cols-2 gap-2" m="-t-2" style="grid-template-rows: auto 1fr;">
 
 <div>
-Terminal
+
 </div>
 
 <div>
 <code>pyproject.toml</code>
 </div>
 
+<div class="line-sep"></div>
+
 <div>
 
 ```sh
 $ poetry add torch
 ```
-
-(`poetry`)
 
 </div>
 
@@ -545,13 +545,17 @@ torch = "^2.0.1"
 
 </div>
 
+<div class="line-sep"></div>
+
 <div>
 
 ```sh
 $ pdm add torch
 ```
-
-(`pdm` / `hatch`)
+Or:
+```sh
+$ hatch add torch
+```
 
 </div>
 
@@ -568,6 +572,17 @@ dependencies = [
 </div>
 
 </div>
+
+<style>
+.line-sep {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 2px;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  opacity: 0.2;
+}
+</style>
 
 ---
 transition: fade
