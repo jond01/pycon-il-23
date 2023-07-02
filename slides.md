@@ -509,11 +509,9 @@ Hatch
 transition: fade
 ---
 
-# Adding a Dependency with a Single Command
+# Add a Dependency with a Single Command
 
 Instead of maintaining multiple files and configs, adopt a modern package manager.
-
-Some examples are: `poetry`, `hatch`, `pdm`, all are CLI tools.
 
 Adding a dependency follows an idiomatic form:
 
@@ -528,11 +526,10 @@ Terminal
 </div>
 
 <div>
-
+<code>poetry</code>:
 ```sh
 $ poetry add torch
 ```
-
 </div>
 
 <div>
@@ -546,7 +543,7 @@ torch = "^2.0.1"
 </div>
 
 <div>
-
+<code>pdm</code> / <code>hatch</code>:
 ```sh
 $ pdm add torch
 ```
