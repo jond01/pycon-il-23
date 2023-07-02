@@ -666,6 +666,17 @@ transition: fade
 transition: fade
 ---
 
+# What Do We Build?
+
+A Build system - turn a source into a `.whl`
+
+1. **Build**: take the source code, create a binary distribution files in `dist/`
+2. **Publish**: upload the wheels to PyPI <logos-pypi />, Test PyPI, or an internal registry
+
+---
+transition: fade
+---
+
 # Build System and Backend
 
 For example:
