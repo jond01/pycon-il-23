@@ -589,6 +589,16 @@ Reliable and reproducible venvs for applications.
 <!--
 Mention the changing world: software, PyPI.
 Renovate by Mend, Dependabot by GitHub, Snyk.
+
+Provide an example:
+https://github.com/django/django/tree/4.2.2
+Even:
+django == 4.2.2
+
+Still leaves a room for unmonitored changes - the indirect deps:
+asgiref >= 3.7.0
+sqlparse >= 0.3.1
+tzdata; sys_platform == 'win32'
 -->
 
 ---
