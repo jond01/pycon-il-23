@@ -435,6 +435,80 @@ Is it in the venv?
 transition: fade
 ---
 
+# Modern Package Managers
+
+There are 3 major CLI tools:
+
+<div grid="~ cols-2 gap-2" m="-t-2">
+
+<div style="margin-left: 80px;">
+
+<div style="display: flex; font-size: 55px;">
+<div>
+<img
+  src="/images/logos/hatch.svg"
+  alt="Hatch logo"
+  style="height: 90px;"
+/>
+</div>
+<div style="margin-top: 10px; margin-left: 15px;">
+<p>
+Hatch
+</p>
+</div>
+</div>
+
+<div style="display: flex; font-size: 55px; margin-top: 10px;">
+<div>
+<img
+  src="/images/logos/pdm.svg"
+  alt="PDM logo"
+  style="height: 80px;"
+/>
+</div>
+<div style="margin-top: 10px; margin-left: 15px;">
+<p>
+&nbsp;PDM
+</p>
+</div>
+</div>
+
+<div style="display: flex; font-size: 55px; margin-top: 10px;">
+<div>
+<img
+  src="/images/logos/poetry.svg"
+  alt="Poetry logo"
+  style="height: 80px;"
+/>
+</div>
+<div style="margin-top: 10px; margin-left: 15px;">
+<p>
+&nbsp;Poetry
+</p>
+</div>
+</div>
+
+</div>
+
+<div v-click style="font-size: 25px; margin-top: 50px;">
+
+✅ Install packages
+
+✅ Manage virtual environments
+
+✅ Work with `pyproject.toml`
+
+✅ Build and publish packages
+
+</div>
+
+</div>
+
+
+---
+transition: fade
+---
+
 # Adding a Dependency with a Single Command
 
 Instead of maintaining multiple files and configs, adopt a modern package manager.
