@@ -526,10 +526,13 @@ Terminal
 </div>
 
 <div>
-<code>poetry</code>:
+
 ```sh
 $ poetry add torch
 ```
+
+(`poetry`)
+
 </div>
 
 <div>
@@ -543,10 +546,12 @@ torch = "^2.0.1"
 </div>
 
 <div>
-<code>pdm</code> / <code>hatch</code>:
+
 ```sh
 $ pdm add torch
 ```
+
+(`pdm` / `hatch`)
 
 </div>
 
