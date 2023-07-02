@@ -854,6 +854,11 @@ Some more criticism of Poetry is available here, by [Henry Schreiner](https://is
 }
 </style>
 
+<!--
+Mention the trend of tools for Python that are built in Rust.
+Some examples, in addition to Rye: the linter Ruff, Pydantic v2.0.
+-->
+
 ---
 
 # Takeaways
