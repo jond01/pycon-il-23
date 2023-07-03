@@ -610,7 +610,9 @@ If you use PDM or Poetry - you get a lock file:
 Reliable and reproducible venvs for applications.
 
 - <octicon-cache-16 class="text-3x1" /> - caching environments
-- <jam-shield-half class="text-4x2" /> - improving supply chain security
+- <jam-shield-half class="text-4x2" /> - improving supply chain security:
+  - SHA for each dependency
+  - Dependency scans: Dependabot, Snyk, Renovate
 
 </v-click>
 
