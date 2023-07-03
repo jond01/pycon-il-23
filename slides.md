@@ -623,7 +623,11 @@ Reliable and reproducible venvs for applications.
 
 ```mermaid
 flowchart TD
-    A["django == 4.2.2"] --> B["asgiref >= 3.7.0"]
+    classDef source fill:cyan
+    classDef directDep fill:#f96
+
+    O[project]:::source --> A["django == 4.2.2"]:::directDep
+    A --> B["asgiref >= 3.7.0"]
     A --> C["sqlparse >= 0.3.1"]
     A -->|sys_platform == 'win32'| D[tzdata]
 ```
