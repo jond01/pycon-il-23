@@ -867,7 +867,18 @@ Some examples, in addition to Rye: the linter Ruff, Pydantic v2.0.
 
 # Takeaways
 
-- `pyproject.toml` is here to stay
+- `pyproject.toml` is here to stay (PEP [517](https://peps.python.org/pep-0517/),
+  [518](https://peps.python.org/pep-0518/), [621](https://peps.python.org/pep-0621/))
+  ```toml
+  [tool."<py-tool>"]
+
+  [project]  # OR [tool.poetry]
+  dependencies = []
+
+  [build-system]
+  requires = []
+  build-backend = ""
+  ```
 - PDM, Poetry and Hatch offer a holistic approach to working with Python
 - Best to choose the proper tool for you and stick with it
 
