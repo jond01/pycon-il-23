@@ -758,10 +758,11 @@ Build frontend = the CLI, build backend = the Python package that builds the pro
 
 <div>
 
-- Pip & setuptools
-- Flit & flit_core
-- PDM & PDM-Backend
-- Hatch & Hatchling
+- `pip` & `setuptools`
+- `flit` & `flit_core`
+- `hatch` & `hatchling`
+- `pdm` & `pdm.backend`
+
 
 E.g.:
 
@@ -775,7 +776,7 @@ build-backend = "setuptools.build_meta"
 
 <div>
 
-- Poetry & Poetry-core
+- `poetry` & `poetry.core`
 
 E.g.:
 
