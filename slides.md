@@ -956,7 +956,7 @@ transition: slide-up
 # Complaints From the Past
 
 A Rust Developer complains about the Python packaging system (from Rust TLV Meetup on September 5th, 2022).
-Watch 20:51-22:18:
+Watch 20:51-22:18 (in Hebrew):
 
 <Transform scale=2.3>
 <Youtube id="9g8mp8TqAQ0" />
