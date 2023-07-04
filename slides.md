@@ -587,6 +587,10 @@ dependencies = [
 }
 </style>
 
+<!--
+Mention dependency groups
+-->
+
 ---
 transition: fade
 ---
@@ -636,6 +640,8 @@ flowchart TD
 </div>
 
 <!--
+Lock file: mainly for you or your application.
+
 Mention the changing world: software, PyPI.
 Renovate by Mend, Dependabot by GitHub, Snyk.
 
